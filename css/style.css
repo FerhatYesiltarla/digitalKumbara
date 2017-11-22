@@ -1,0 +1,315 @@
+
+body
+{
+	background-image: url(../img/anıtkabir.jpg);
+	margin:0;
+  height: 100%;
+}
+
+div#body
+{
+	/*background-image: url(../img/arkaplan2.jpg);
+	background-size: 100% 100%; 
+	width: 100%;
+	height:100%;
+	margin:0;*/
+}
+
+ul#para_goster_01, #para_goster_02, #para_goster_03, #para_goster_04, #para_goster_05
+    {
+      list-style: none;
+      float: left;
+      margin-left:15%;
+    }
+
+#body_admin
+{
+	width: 100%;
+	height:100%;
+	margin:0;
+}
+#hk
+{
+	text-align: right;	
+	width: 100%;
+  bottom: 0;
+  position:fixed;
+}
+div#orta
+{
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	margin-top: -150px;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+}
+div#orta2
+{
+	width: 300px;
+	height: 300px;
+	margin-left: -150px;
+	margin-top: -150px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+}
+#bilgi
+{
+	font-size: 14px;
+	height: 30px;
+}
+#logo
+{
+	position: relative;
+	margin-left: -100px;
+	left: 50%;
+}
+#ust_bar
+{
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.4);
+	width: 100%;
+	height: 40;	
+	margin-top: 20;
+}
+#ust_bar_icerik
+{
+	position: absolute;
+	float: left;
+	margin-top: 0;
+	width: 100%;
+	height: 100%;
+}
+#uye_ad_soyad
+   	{
+   		float: left;
+   		width: 200px;
+   		margin-left: 7%;
+   		height: auto;
+   		margin-top: 8;
+   	}
+#ayar_cikis_logo
+   	{
+   		text-align: right;
+   		height: 70%;
+   		float: right;
+   		margin-right: 7%;
+   		margin-top: 5;
+   		width:100px;
+   	}
+#img_settings
+   	{
+   		height: 100%;
+   	}
+#img_log_out
+   	{
+   		height: 100%;
+   	}
+#hk_logo
+	{
+   	float:right;
+   	width: 150px;
+   /* background-color: rgba(255, 255, 255, 0.2); */
+    background-color: #333;     
+
+   	}
+#ana_bozuk_kagit_bilgi
+  {
+  	width: 100%;
+  	position: absolute;
+  	margin-top: 100;
+  	height: 35;
+  }
+#bozuk_kagit_bilgi
+  {
+  	background-color: rgba(255, 255, 255, 0.2);
+  	width: 250px;
+  	height: 100%;
+  	float: left;
+  	margin-left: 7%;
+  }
+#bkk_text
+  {
+  	float: left;
+   	width: 200px;
+   	margin-left:0;
+   	height: auto;
+    margin-top: 3;
+   	font-size: 25
+  }
+#ttb_text
+  {
+  	float: left;
+   	width: 100%;
+   	margin-left:0;
+   	height: auto;
+   	margin-top: 4;
+   	font-size: 25
+  }
+ #ana_para_miktar_bilgi
+ {
+ 	position: absolute;
+ 	width: 100%;
+ 	margin-top: 160;
+ 	float: left; 	
+ }
+ #para_miktar_bilgi_01
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.2);
+ 	height: 100%;
+ 	float: left;
+ 	margin-left: 7%;
+ 	margin-top: 15px;
+ }
+ #pmb_text_01
+ {
+ 	width: 160px;
+ 	margin-left: 10%;
+ 	margin-top: 5;
+ 	text-align: center;
+ 	font-size: 18;
+ }
+ #para_miktar_bilgi_02
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.2);
+ 	height: 100%;
+ 	float: left;
+ 	margin-left:3%;
+ 	margin-top: 15px;
+ }
+ #pmb_text_02, #pmb_text_03, #pmb_text_04, #pmb_text_05
+ {
+ 	width: 160px;
+ 	margin-left: 13%;
+ 	margin-top: 5;
+ 	text-align: center;
+ 	font-size: 18;
+ }
+ #para_ekle_cikar_01
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.2);
+ 	height: 100%;
+ 	float: left;
+ 	margin-left:0;
+ }
+ #pec_text_01
+ {
+ 	width: 170px;
+ 	float: left;
+ 	margin-left: 8%; 	
+ }
+ #para_ekle_cikar_02
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.2);
+ 	height: 100%;
+ 	float: left;
+ 	margin-left:3%;
+ }
+ #pec_text_02
+ {
+ 	width: 170px;
+ 	float: left;
+ 	margin-left: 8%;
+ }
+ #ekle
+ {
+ 	float: left;
+ 	margin-right: 10px;
+ }
+ #tarih_saat_01
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.7);
+ 	height: 100%;
+ 	float: left;
+ 	height: 180px;
+ 	overflow: scroll;
+ }
+ #tarih_saat_02
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.7);
+ 	height: 100%;
+ 	float: left;
+ 	height: 180px;
+ 	overflow: scroll;
+ }
+ #ana_toplam_tutar
+ {
+ 	width: 100%;
+ 	position: absolute;
+ 	float: left;
+ 	margin-top: 430;
+ }
+ #toplam_tutar_01
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.2);
+ 	height: 100%;
+ 	float: left;
+ }
+ #tt_text_01
+ {
+ 	width: 170px;
+ 	float: left;
+ 	margin-left: 8%; 
+ 	margin-top: 5;
+ 	text-align: center;
+ 	font-size: 18;	
+ }
+ #toplam_tutar_02, #toplam_tutar_03, #toplam_tutar_04, #toplam_tutar_05
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.2);
+ 	height: 100%;
+ 	float: left;
+ }
+ #tt_text_02
+ {
+ 	width: 160px;
+ 	float: left;
+ 	margin-left: 13%;
+ 	margin-top: 5;
+ 	text-align: center;
+ 	font-size: 18;
+ }
+  #ana_toplam_tutar_bilgi
+  {
+    width: 100%;
+    float: left;
+    height: 35;   
+    margin-top: 20px;
+  }
+#toplam_tutar_bilgi
+  {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 250px;
+    height: 100%;
+    float: left;
+    margin-left: 7%;
+  }
+@media screen and (max-width:1300px) and (min-width:100px){ 
+ #para_miktar_bilgi_02
+ {
+ 	width: 200px;
+ 	background-color: rgba(255, 255, 255, 0.2);
+ 	height: 100%;
+ 	float: left;
+ 	margin-left:7%;
+ }
+ #ayar_cikis_logo
+ {
+ 	margin-top: 5;	
+ }
+ }
+@media screen and (max-height:650px) and (min-height:100px){
+}
+
+
+}
